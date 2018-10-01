@@ -1,0 +1,173 @@
+
+/* Title font */
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #1e3948;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+header {
+    color: #DDD;
+}
+
+h2, h3 {
+    font-family: 'Satisfy', cursive;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    background-color: #D3B0AD;
+    color: #FFF;
+    padding: 8px;
+    margin: 40px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+em {
+    color: #888;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.navbar-brand,
+footer .brand {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 22px;
+    color: #AAA;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-header>a {
+    color: #EEE;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-header>a:hover {
+    color: #D3B0AD;
+    text-shadow: none;
+}
+
+.navbar.transparent.navbar-default {
+   background: rgba(0, 0, 0, 0.6);
+   border: 0px #fff none;
+   box-shadow: none;
+}
+
+.loading-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+}
+
+.pulse {
+  border: 3px solid #999;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    opacity: 0.0;
+  }
+
+  50% {
+    opacity: 1.0;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    opacity: 0.0;
+  }
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+/**
+ * Guestbook.
+ */
+
+#gbMessages {
+  text-align: center;
+}
+
+#gbMessages em {
+  font-size: 15px;
+  color: #1e3948;
+  font-style: italic;
+}
+
+#gbMessages small {
+  color: #888;
+}
+
+/**
+ * Footer
+ *
+ * Separated section of content at the bottom of all pages, save the homepage.
+ */
+
+.bs-docs-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  color: #99979c;
+  text-align: center;
+  background-color: #2a2730;
+}
+.bs-docs-footer a {
+  color: #fff;
+}
+.bs-docs-footer-links {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.bs-docs-footer-links li {
+  display: inline-block;
+}
+.bs-docs-footer-links li + li {
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .bs-docs-footer {
+    text-align: left;
+  }
+  .bs-docs-footer p {
+    margin-bottom: 0;
+  }
+}
+
+#footer-desc {
+  margin: 20px 0;
+}
