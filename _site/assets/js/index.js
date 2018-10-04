@@ -35,15 +35,33 @@ $( document ).ready(function() {
 
     /* Specific galleries */
     var mariagesDir = '/assets/images/prestations/mariage/';
+    var naissancesDir = '/assets/images/prestations/naissance/';
+
+    var nbImgMariages = 206;
+    var itemsMariages = Array(nbImgMariages);
+
+    var nbImgNaissances = 64;
+    var itemsNaissances = Array(nbImgNaissances);
+
+    for(var i=0 ; i<nbImgMariages ; i++) {
+      itemsMariages[i] = mariagesDir+(i+1)+'.jpg';
+    }
+
+    for(var i=0 ; i<nbImgNaissances ; i++) {
+      itemsNaissances[i] = naissancesDir+(i+1)+'.jpg';
+    }
+
     $('#presta-mariages').click(function() {
       SimpleLightbox.open({
-        items: [mariagesDir+'1.jpg',
-                mariagesDir+'2.jpg',
-                mariagesDir+'3.jpg',
-                mariagesDir+'4.jpg',
-                mariagesDir+'5.jpg',
-                mariagesDir+'6.jpg',
-                mariagesDir+'7.jpg']
+        items: itemsMariages
+      });
+
+      return false;
+    });
+
+    $('#presta-naissances').click(function() {
+      SimpleLightbox.open({
+        items: itemsNaissances
       });
 
       return false;

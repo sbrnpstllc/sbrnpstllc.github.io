@@ -63,10 +63,12 @@ layout: default
           </div>
           <div class="col-sm-6 col-md-3">
             <div>
-              <img src="{{ site.baseurl }}/assets/images/naissance.jpg" class="img-responsive img-circle" />
-              <div class="caption text-center">
-                <h3>Naissance</h3>
-              </div>
+              <a href="#" id="presta-naissances">
+                <img src="{{ site.baseurl }}/assets/images/naissance.jpg" class="img-responsive img-circle" />
+                <div class="caption text-center">
+                  <h3>Naissance</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
