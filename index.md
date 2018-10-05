@@ -55,10 +55,12 @@ layout: default
           </div>
           <div class="col-sm-6 col-md-3">
             <div>
-              <img src="{{ site.baseurl }}/assets/images/grossesse.jpg" class="img-responsive img-circle" />
-              <div class="caption text-center">
-                <h3>Grossesse</h3>
-              </div>
+              <a href="#" id="presta-grossesse">
+                <img src="{{ site.baseurl }}/assets/images/grossesse.jpg" class="img-responsive img-circle" />
+                <div class="caption text-center">
+                  <h3>Grossesse</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
@@ -73,10 +75,12 @@ layout: default
           </div>
           <div class="col-sm-6 col-md-3">
             <div>
-              <img src="{{ site.baseurl }}/assets/images/tlj.jpg" class="img-responsive img-circle" />
-              <div class="caption text-center">
-                <h3>Famille</h3>
-              </div>
+              <a href="#" id="presta-famille">
+                <img src="{{ site.baseurl }}/assets/images/tlj.jpg" class="img-responsive img-circle" />
+                <div class="caption text-center">
+                  <h3>Famille</h3>
+                </div>
+              </a>
             </div>
           </div>
         </div>

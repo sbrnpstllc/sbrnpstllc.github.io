@@ -34,8 +34,10 @@ $( document ).ready(function() {
     });
 
     /* Specific galleries */
-    var mariagesDir = '/assets/images/prestations/mariage/';
+    var mariagesDir   = '/assets/images/prestations/mariage/';
     var naissancesDir = '/assets/images/prestations/naissance/';
+    var familleDir    = '/assets/images/prestations/famille/';
+    var grossesseDir  = '/assets/images/prestations/grossesse/';
 
     var nbImgMariages = 206;
     var itemsMariages = Array(nbImgMariages);
@@ -43,12 +45,26 @@ $( document ).ready(function() {
     var nbImgNaissances = 64;
     var itemsNaissances = Array(nbImgNaissances);
 
+    var nbImgFamille = 95;
+    var itemsFamille = Array(nbImgFamille);
+
+    var nbImgGrossesse = 18;
+    var itemsGrossesse = Array(nbImgGrossesse);
+
     for(var i=0 ; i<nbImgMariages ; i++) {
       itemsMariages[i] = mariagesDir+(i+1)+'.jpg';
     }
 
     for(var i=0 ; i<nbImgNaissances ; i++) {
       itemsNaissances[i] = naissancesDir+(i+1)+'.jpg';
+    }
+
+    for(var i=0 ; i<nbImgFamille ; i++) {
+      itemsFamille[i] = familleDir+(i+1)+'.jpg';
+    }
+
+    for(var i=0 ; i<nbImgGrossesse ; i++) {
+      itemsGrossesse[i] = grossesseDir+(i+1)+'.jpg';
     }
 
     $('#presta-mariages').click(function() {
@@ -62,6 +78,22 @@ $( document ).ready(function() {
     $('#presta-naissances').click(function() {
       SimpleLightbox.open({
         items: itemsNaissances
+      });
+
+      return false;
+    });
+
+    $('#presta-grossesse').click(function() {
+      SimpleLightbox.open({
+        items: itemsGrossesse
+      });
+
+      return false;
+    });
+
+    $('#presta-famille').click(function() {
+      SimpleLightbox.open({
+        items: itemsFamille
       });
 
       return false;
