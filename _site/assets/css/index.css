@@ -43,6 +43,11 @@ em {
     font-style: normal;
 }
 
+ul {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 .navbar-brand,
 footer .brand {
     font-family: 'Satisfy', cursive;
