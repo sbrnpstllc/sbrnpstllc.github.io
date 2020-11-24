@@ -39,16 +39,16 @@ $( document ).ready(function() {
     var familleDir    = '/assets/images/prestations/famille/';
     var grossesseDir  = '/assets/images/prestations/grossesse/';
 
-    var nbImgMariages = 206;
+    var nbImgMariages = 71;
     var itemsMariages = Array(nbImgMariages);
 
-    var nbImgNaissances = 64;
+    var nbImgNaissances = 39;
     var itemsNaissances = Array(nbImgNaissances);
 
-    var nbImgFamille = 95;
+    var nbImgFamille = 56;
     var itemsFamille = Array(nbImgFamille);
 
-    var nbImgGrossesse = 18;
+    var nbImgGrossesse = 19;
     var itemsGrossesse = Array(nbImgGrossesse);
 
     for(var i=0 ; i<nbImgMariages ; i++) {
