@@ -111,7 +111,7 @@ layout: default
                     <p class="text-danger"><strong>150€</strong></p>
                   </div>
                 </div>
-                <h4><i class="fas fa-camera-retro"></i> Séance nouveau-né (minimum 2h30 à votre domicile) &nbsp;&nbsp;<span class="text-danger">180€</span></span></h4>
+                <h4><i class="fas fa-camera-retro"></i> Séance nouveau-né (minimum 2h30 à votre domicile) &nbsp;&nbsp;<span class="text-danger">180€</span></h4>
                 <div class="row">
                   <ul class="col-md-12">
                     <li>Photos du nouveau-né, avec ses parents et sa fratrie</li>
