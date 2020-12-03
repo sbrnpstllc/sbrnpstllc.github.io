@@ -131,7 +131,7 @@ layout: default
                 <p>
                   <em>
                     Les séances incluent : tri et traitement des photos /
-                    déplacement jusqu'à 30 km (0.50€/km supplémentaire) /
+                    déplacement jusqu'à 30 km (0.60€/km supplémentaire) /
                     galerie web avec accès privatif permettant le téléchargement des photos
                   </em>
                   <br />
@@ -142,6 +142,12 @@ layout: default
                 
                 <p>
                   <strong><a href="#contact">Envoyez-moi un message</a> pour en savoir plus sur mes formules mariages.</strong>
+                </p>
+
+                <h3>Tarifs professionnel</h3>
+                
+                <p>
+                  <strong><a href="#contact">Contactez-moi</a> pour me parler de votre projet.</strong>
                 </p>
             </div>
             <div class="col-md-2"></div>
