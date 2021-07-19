@@ -176,3 +176,12 @@ footer .brand {
 #footer-desc {
   margin: 20px 0;
 }
+
+.navbar-nav>li>a.client {
+  background-color: rgb(211, 176, 173, 0.4);
+}
+
+.navbar-nav>li>a.client:hover {
+  background-color: rgb(211, 176, 173, 0.8);
+  color: #FFF;
+}
